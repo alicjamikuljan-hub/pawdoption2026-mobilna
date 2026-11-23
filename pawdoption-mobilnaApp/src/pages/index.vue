@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title> Pawdoption aplikacija </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -41,46 +41,52 @@ import EssentialLink from '@/components/EssentialLink.vue'
 
 const linksList = [
   {
-    label: 'Docs',
-    caption: 'quasar.dev',
+    label: 'Početna',
+    caption: 'Početna stranica',
     icon: 'school',
-    link: 'https://quasar.dev'
+    link: '/'
   },
   {
-    label: 'GitHub',
-    caption: 'github.com/quasarframework',
+    label: 'Prijava',
+    caption: 'Prijava korisnika',
     icon: 'code',
-    link: 'https://github.com/quasarframework'
+    link: '/prijava'
   },
   {
-    label: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
+    label: 'Registracija',
+    caption: 'Registracija korisnika',
     icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    link: '/registracija'
   },
   {
-    label: 'Forum',
-    caption: 'forum.quasar.dev',
+    label: 'Moja opažanja',
+    caption: 'Moja opažanja',
     icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    link: '/opazanja'
   },
   {
-    label: 'Twitter',
-    caption: '@quasarframework',
+    label: 'Novo opažanje',
+    caption: 'Novo opažanje',
     icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    link: '/novo-opazanje'
   },
   {
-    label: 'Facebook',
-    caption: '@QuasarFramework',
+    label: 'Detalji opažanja',
+    caption: 'detalji opažanja',
     icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    link: '/opazanje/1'
   },
   {
-    label: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
+    label: 'Senzori',
+    caption: 'Senzori',
     icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    link: '/senzori'
+  },
+  {
+    label: 'Profil',
+    caption: 'Profil korisnika',
+    icon: 'favorite',
+    link: '/profil'
   }
 ]
 

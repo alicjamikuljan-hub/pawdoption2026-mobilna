@@ -28,13 +28,13 @@ import { ref } from 'vue';
 const drawer = ref(false);
 
 const menu = [
-  { label: 'Početna', to: '#/' },
-  { label: 'Prijava', to: '#/prijava' },
-  { label: 'Registracija', to: '#/registracija' },
-  { label: 'Moja opažanja', to: '#/opazanja' },
-  { label: 'Novo opažanje', to: '#/novo-opazanje' },
-  { label: 'Detalji opažanja', to: '#/opazanje/1' },
-  { label: 'Senzori', to: '#/senzori' },
-  { label: 'Profil', to: '#/profil' }
+  { label: 'Početna', to: '/' },
+  { label: 'Prijava', to: '/prijava' },
+  { label: 'Registracija', to: '/registracija' },
+  { label: 'Moja opažanja', to: '/opazanja' },
+  { label: 'Novo opažanje', to: '/novo-opazanje' },
+  { label: 'Detalji opažanja', to: '/opazanje/1' },
+  { label: 'Senzori', to: '/senzori' },
+  { label: 'Profil', to: '/profil' }
 ];
 </script>
