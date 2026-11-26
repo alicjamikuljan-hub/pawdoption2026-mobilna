@@ -31,7 +31,7 @@ const menu = [
   { label: 'Početna', to: '/' },
   { label: 'Prijava', to: '/prijava' },
   { label: 'Registracija', to: '/registracija' },
-  { label: 'Moja opažanja', to: '/opazanja' },
+  { label: 'Životinje za udomljavanje', to: '/zivotinje-za-udomljavanje' },
   { label: 'Detalji životinje', to: '/zivotinja/1' },
   { label: 'Zahtjev za udomljavanje', to: '/zahtjev-za-udomljavanje' },
   { label: 'O nama / Sklonište', to: '/o-nama' },

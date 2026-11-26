@@ -59,10 +59,10 @@ const linksList = [
     link: '/registracija'
   },
   {
-    label: 'Moja opažanja',
-    caption: 'Moja opažanja',
-    icon: 'record_voice_over',
-    link: '/opazanja'
+    label: 'Životinje',
+    caption: 'Životinje za udomljavanje',
+    icon: 'pets',
+    link: '/zivotinje-za-udomljavanje'
   },
   {
     label: 'Detalji životinje',
