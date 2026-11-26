@@ -65,27 +65,27 @@ const linksList = [
     link: '/opazanja'
   },
   {
-    label: 'Novo opažanje',
-    caption: 'Novo opažanje',
-    icon: 'rss_feed',
-    link: '/novo-opazanje'
+    label: 'Detalji životinje',
+    caption: 'Podaci o životinji',
+    icon: 'pets',
+    link: '/zivotinja/1'
   },
   {
-    label: 'Detalji opažanja',
-    caption: 'detalji opažanja',
-    icon: 'public',
-    link: '/opazanje/1'
-  },
-  {
-    label: 'Senzori',
-    caption: 'Senzori',
+    label: 'Zahtjev za udomljavanje',
+    caption: 'Slanje zahtjeva',
     icon: 'favorite',
-    link: '/senzori'
+    link: '/zahtjev-za-udomljavanje'
+  },
+  {
+    label: 'O nama / Sklonište',
+    caption: 'Informacije o skloništu',
+    icon: 'info',
+    link: '/o-nama'
   },
   {
     label: 'Profil',
     caption: 'Profil korisnika',
-    icon: 'favorite',
+    icon: 'person',
     link: '/profil'
   }
 ]

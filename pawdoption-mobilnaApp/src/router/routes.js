@@ -7,9 +7,9 @@ const routes = [
       { path: 'prijava', component: () => import('pages/LoginPage.vue') },
       { path: 'registracija', component: () => import('pages/RegisterPage.vue') },
       { path: 'opazanja', component: () => import('pages/ObservationsPage.vue') },
-      { path: 'novo-opazanje', component: () => import('pages/NewObservationPage.vue') },
-      { path: 'opazanje/:id', component: () => import('pages/ObservationDetailsPage.vue') },
-      { path: 'senzori', component: () => import('pages/SensorsPage.vue') },
+      { path: 'zivotinja/:id', component: () => import('pages/AnimalDetailsPage.vue') },
+      { path: 'zahtjev-za-udomljavanje', component: () => import('pages/AdoptionRequestPage.vue') },
+      { path: 'o-nama', component: () => import('pages/AboutShelterPage.vue') },
       { path: 'profil', component: () => import('pages/ProfilePage.vue') }
     ]
   },

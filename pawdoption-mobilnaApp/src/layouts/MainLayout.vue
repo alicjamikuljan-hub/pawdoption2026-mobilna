@@ -3,7 +3,7 @@
     <q-header elevated class="bg-grey-9 text-white">
       <q-toolbar>
         <q-btn flat dense round icon="menu" @click="drawer = !drawer" />
-        <q-toolbar-title>FieldLog</q-toolbar-title>
+        <q-toolbar-title>Pawdoption</q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -32,9 +32,9 @@ const menu = [
   { label: 'Prijava', to: '/prijava' },
   { label: 'Registracija', to: '/registracija' },
   { label: 'Moja opažanja', to: '/opazanja' },
-  { label: 'Novo opažanje', to: '/novo-opazanje' },
-  { label: 'Detalji opažanja', to: '/opazanje/1' },
-  { label: 'Senzori', to: '/senzori' },
+  { label: 'Detalji životinje', to: '/zivotinja/1' },
+  { label: 'Zahtjev za udomljavanje', to: '/zahtjev-za-udomljavanje' },
+  { label: 'O nama / Sklonište', to: '/o-nama' },
   { label: 'Profil', to: '/profil' }
 ];
 </script>
